@@ -17,8 +17,8 @@ package approve_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/oa/approve"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/oa/approve"
 )
 
 func ExampleGetTemplateDetail() {

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/school_app/living"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/school_app/living"
 )
 
 func ExampleGetUserAllLivingId() {

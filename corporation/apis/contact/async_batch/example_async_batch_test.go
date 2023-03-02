@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/contact/async_batch"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/contact/async_batch"
 )
 
 func ExampleUser() {

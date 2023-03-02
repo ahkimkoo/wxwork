@@ -23,7 +23,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/fastwego/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation"
 )
 
 const (

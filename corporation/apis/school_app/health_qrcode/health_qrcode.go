@@ -18,7 +18,7 @@ package health_qrcode
 import (
 	"bytes"
 
-	"github.com/fastwego/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation"
 )
 
 const (

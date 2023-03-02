@@ -17,8 +17,8 @@ package wedrive_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/efficiency/wedrive"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/efficiency/wedrive"
 )
 
 func ExampleSpaceCreate() {

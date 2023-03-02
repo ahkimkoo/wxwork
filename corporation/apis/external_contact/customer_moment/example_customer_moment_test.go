@@ -17,8 +17,8 @@ package customer_moment_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/external_contact/customer_moment"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/external_contact/customer_moment"
 )
 
 func ExampleGetMomentList() {

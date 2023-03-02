@@ -17,8 +17,8 @@ package meeting_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/efficiency/meeting"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/efficiency/meeting"
 )
 
 func ExampleCreate() {

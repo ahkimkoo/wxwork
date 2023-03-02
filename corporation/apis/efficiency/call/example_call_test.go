@@ -17,8 +17,8 @@ package call_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/efficiency/call"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/efficiency/call"
 )
 
 func ExampleGetDialRecord() {

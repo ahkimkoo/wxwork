@@ -17,8 +17,8 @@ package linked_corp_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/contact/linked_corp"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/contact/linked_corp"
 )
 
 func ExampleGetPermList() {

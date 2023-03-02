@@ -17,8 +17,8 @@ package meeting_room_test
 import (
 	"fmt"
 
-	"github.com/fastwego/wxwork/corporation"
-	"github.com/fastwego/wxwork/corporation/apis/oa/meeting_room"
+	"github.com/ahkimkoo/wxwork/corporation"
+	"github.com/ahkimkoo/wxwork/corporation/apis/oa/meeting_room"
 )
 
 func ExampleAdd() {
