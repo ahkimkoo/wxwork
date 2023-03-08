@@ -89,9 +89,11 @@ POST /api/callback?msg_signature=ASDFQWEXZCVAQFASDFASDFSS
 &nonce=123412323
 
 <xml>
-   <ToUserName><![CDATA[toUser]]></ToUserName>
-   <AgentID><![CDATA[toAgentID]]></AgentID>
-   <Encrypt><![CDATA[msg_encrypt]]></Encrypt>
+
+	<ToUserName><![CDATA[toUser]]></ToUserName>
+	<AgentID><![CDATA[toAgentID]]></AgentID>
+	<Encrypt><![CDATA[msg_encrypt]]></Encrypt>
+
 </xml>
 */
 func (s *Server) ParseXML(request *http.Request) (m interface{}, err error) {
@@ -392,6 +394,23 @@ func parseEvent(body []byte) (m interface{}, err error) {
 		return msg, nil
 	case eventtype.EventTypeMenuScanCodeWaitMsg:
 		msg := eventtype.EventMenuScanCodeWaitMsg{}
+		err = xml.Unmarshal(body, &msg)
+		if err != nil {
+			return
+		}
+		return msg, nil
+	case eventtype.EventTypeChangeExternalTag:
+		/*不细分了
+		msg := eventtype.EventChangeTag{}
+		err = xml.Unmarshal(body, &msg)
+		if err != nil {
+			return
+		}
+		switch msg.ChangeType {
+
+		}
+		*/
+		msg := eventtype.ChangeExternalTagUpdate{}
 		err = xml.Unmarshal(body, &msg)
 		if err != nil {
 			return
